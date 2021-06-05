@@ -29,10 +29,29 @@ canvas {
 	display: block;
 }
 
-#fireworks{
+#fireworks {
   position: fixed;
   top: 0;
   left: 0;
   width: 200%;
   height: 200%;
+}
+
+#to-msg {
+  position: fixed;
+  top: 75%;
+  left: 75%;
+  border-radius: 40px;
+  background: rgb(34, 194, 34);
+  padding: 20px;
+  padding-top: 40px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+}
+
+#msg-txt {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
