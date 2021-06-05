@@ -1,0 +1,2 @@
+site:
+	browse index.html

@@ -1,0 +1,38 @@
+body {
+  background-color:rgb(236, 190, 252);
+  background-image: url('src/hearts.png');
+  background-size:cover;
+}
+
+#txt {
+  position: relative;
+  text-align: center;
+  padding-top: 10%;
+}
+
+#cake {
+  position: fixed;
+  left: 35%;
+  right: 0;
+  bottom: 0;
+  top: 50%;
+}
+
+#main {
+  font-size: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
+
+#fireworks{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+}
